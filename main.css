@@ -1,0 +1,126 @@
+.nav {
+    background-color: floralwhite;
+    border-bottom: 3px dashed black;
+}
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+    display: inline;
+}
+
+.opening {
+    background-color: floralwhite;
+    border-bottom: 1px solid black;
+}
+.opening h1{
+    color: black;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    position: relative;
+    left: 135px;
+    bottom: 10px;
+    margin-right: 200px;
+}
+.jumbotronn .container {
+  position: relative;
+  top:0px;
+}
+
+.jumbotronn h1 {
+    font-size: 48px;  
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 215px;
+    bottom: 10px;
+    margin-right: 225px;
+    -webkit-animation-name: example1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 16s; /* Chrome, Safari, Opera */
+    animation-name: example1;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@-webkit-keyframes example1 {
+    from {color: aliceblue;}
+    to {color: plum;}
+}
+
+.jumbotronn p {
+    font-size: 25px;
+    color: rgb(22,44,255);
+    font-family: 'Shift', monospace;
+    font-weight: bold;
+    position: relative;
+    left: 321px;
+    bottom: 18px;
+    margin-right: 400px;
+}
+.jumbotronn {
+    height: 500px;
+    position: relative;
+    background-size: 1600px 1000px;
+    background-image:url('http://dreamatico.com/data_images/cake/cake-8.jpg');
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 16s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    to {background-image:url('http://dreamatico.com/data_images/cake/cake-8.jpg');}
+    from {background-image:url('http://www.finecooking.com/CMS/uploadedimages/Images/Cooking/Articles/Issues_111-120/051119082-01-chocolate-layer-cake-recipe_xlg.jpg');}
+}
+.recipe h2 {
+    color: blueviolet;
+    font-size: 70px;
+    position: relative;
+    left: 320px;
+    margin-right: 650px;
+}
+.recipe h3{
+    color: red;
+    font-size: 30px;
+    position: relative;
+    left: 320px;
+    margin-right: 650px;
+}
+.recipe li {
+    display: block;
+    position: relative;
+    left: 320px;
+    margin-right: 650px;
+}
+.neighborhood-guides{
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+.neighborhood-guides h2{
+    color: #393c3d;
+    font-size: 24px;
+}
+.neighborhood-guides p{
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+.learn-more {
+  background-color: darkgray;
+}
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #393c3f;
+}
